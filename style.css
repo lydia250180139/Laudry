@@ -1,0 +1,36 @@
+/* style.css */
+:root {
+    --ungu-muda: #9575cd;
+    --ungu-tua: #7e57c2;
+    --putih-bersih: #ffffff;
+}
+
+/* Background Putih untuk seluruh halaman */
+body {
+    background-color: var(--putih-bersih) !important;
+}
+
+/* Semua tombol menjadi Ungu */
+.btn-primary {
+    background-color: var(--ungu-muda) !important;
+    border-color: var(--ungu-muda) !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--ungu-tua) !important;
+    border-color: var(--ungu-tua) !important;
+}
+
+/* Header Tabel agar senada */
+.table-header 
+    .table-header {
+    background-color: #9575cd !important; /* Ini warna ungu Anda */
+    color: white !important;;
+}
+
+/* Memberi bingkai kartu agar tidak menyatu dengan background putih */
+.card {
+    background-color: var(--putih-bersih);
+    border: 1px solid #ddd;
+}
